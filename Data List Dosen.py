@@ -37,7 +37,11 @@ def menu():
         elif pilihan == "7" or pilihan == "KELUAR PROGRAM":
             pembatas()
             print("KELUAR DARI PROGRAM" .center(46,"="))
+            pembatas()
             exit()
+        else:
+            print("Inputan Salah, Silahkan Pilih Ulang:")
+        pembatas2()
 
 
 
