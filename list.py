@@ -136,6 +136,7 @@ def edit_dosen():
             contacts[indeks]['MATKUL'] = telepon
         indeks = indeks + 1
 
+        
     # Menulis data baru ke file CSV (tulis ulang)
     with open(csv_filename, mode="w") as csv_file:
         fieldnames = ['NIP', 'NAMA', 'MATKUL']
